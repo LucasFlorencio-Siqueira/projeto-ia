@@ -1,0 +1,257 @@
+html{
+    background-color: rgb(239, 203, 169);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    padding-top: 120px;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+     background-color:rgb(250, 154, 116);
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 1px solid black;
+    list-style-type: none;
+    width: 60%;
+    max-width: 180px;
+    
+
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background-color:rgb(250, 154, 116);
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 400px;
+}
+li{
+    text-align: center;
+
+}
+
+.img_home{
+    display: block;
+    margin: 0 auto;
+    padding: 12 auto;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+table{
+    margin: 0,10 auto;
+    padding: 10px;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+
+}
+th{
+    background-color:rgb(250, 154, 116);
+    border-style: 1px solid;
+}
+td{
+    border: 1px solid black;
+    margin: 0,auto;
+    padding: 200px,200px,200px,200px;
+    text-align: center;
+    border-collapse: collapse;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+
+
+}
+textarea{
+    max-width: 180px;
+}
+
+button{
+    background-color:   rgb(250, 154, 116);
+    margin-top: 5px; 
+}
+
+button:hover{
+    background-color: rgb(250, 190, 116);
+}
+.img_home{
+    display: block;
+    margin: 20px auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:active{
+    color:rgb(6, 6, 91);
+}
+.barra_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+.lista_nav {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.lista_nav li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.galeria {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black
+}
+
+th {
+    background-color: rgb(250, 154, 116); 
+    font-weight: bold;
+}
+
+td img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+.sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    padding: 40px;
+    align-items: center;
+    
+}
+
+.texto_sobre {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.texto_sobre h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.imagem_sobre img {
+    width: 80%; 
+    height: auto;
+    border-radius: 10px;
+}
+.p_sobre{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fundo{
+    background-color:  rgb(250, 154, 116);
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px, auto;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 80%;
+
+}
+.h3_sobre{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+.fundo_form{
+    background-color:  rgb(250, 154, 116);
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px, auto;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 250px;
+}
+.fundo_gerar{
+    background-color:  rgb(250, 154, 116);
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px, auto;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 250px;
+}
+.li_tec{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.li_tec_item{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
